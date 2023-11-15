@@ -1,3 +1,68 @@
+***Vérifier que docker est installé***
+```
+lawerz@lawerz-MacBookPro:~/tp_cloud$ docker info 
+Client:
+ Version:    24.0.5
+ Context:    default
+ Debug Mode: false
+
+Server:
+ Containers: 3
+  Running: 2
+  Paused: 0
+  Stopped: 1
+ Images: 2
+ Server Version: 24.0.5
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Using metacopy: false
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 
+ runc version: 
+ init version: 
+ Security Options:
+  apparmor
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.2.0-32-generic
+ Operating System: Ubuntu 22.04.3 LTS
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 4
+ Total Memory: 15.52GiB
+ Name: lawerz-MacBookPro
+ ID: befd84a3-68ac-4042-b56c-8b1c56ba84f5
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
+lawerz@lawerz-MacBookPro:~/tp_cloud$ 
+```
+
+
+
+
+
+
+
+
 ```
 lawerz@lawerz-MacBookPro:/$ cd
 lawerz@lawerz-MacBookPro:~$ 
